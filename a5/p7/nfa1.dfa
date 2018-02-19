@@ -1,0 +1,57 @@
+5
+E
+F
++
+id
+#
+8
+nope
+<E>
+x
+y
+1
+2
+3
+4
+<E>
+4
+1
+2
+3
+4
+35
+<E> E x
+<E> F 2
+<E> id 3
+<E> # 4
+<E> + nope
+x E nope
+x F nope
+x id nope
+x # nope
+x + y
+y E nope
+y F 1
+y id nope
+y # nope
+y + nope
+1 E nope
+1 F nope
+1 + nope
+1 id nope
+1 # nope
+2 E nope
+2 F nope
+2 + nope
+2 id nope
+2 # nope
+3 E nope
+3 F nope
+3 + nope
+3 id nope
+3 # nope
+4 E nope
+4 F nope
+4 + nope
+4 id nope
+4 # nope

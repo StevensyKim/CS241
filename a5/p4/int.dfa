@@ -1,0 +1,142 @@
+11
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+-
+9
+start
+error
+neg
+tens
+2tens
+3tens
+hundred
+2hundred
+ones
+start
+6
+tens 
+2tens
+3tens
+hundred
+2hundred
+ones
+88
+start - neg
+start 0 ones
+start 1 hundred
+start 2 tens
+start 3 tens
+start 4 tens
+start 5 tens
+start 6 tens
+start 7 tens
+start 8 tens
+start 9 tens
+ones 0 error
+ones 1 error
+ones 2 error
+ones 3 error
+ones 4 error
+ones 5 error
+ones 6 error
+ones 7 error
+ones 8 error
+ones 9 error
+ones - error
+hundred 0 tens
+hundred 1 tens
+hundred 2 2tens
+hundred 3 ones
+hundred 4 ones
+hundred 5 ones
+hundred 6 ones
+hundred 7 ones
+hundred 8 ones
+hundred 9 ones
+hundred - error
+tens - error
+tens 0 ones
+tens 1 ones
+tens 2 ones
+tens 3 ones
+tens 4 ones
+tens 5 ones
+tens 6 ones
+tens 7 ones
+tens 8 ones
+tens 9 ones
+2tens 0 ones
+2tens 1 ones
+2tens 2 ones
+2tens 3 ones
+2tens 4 ones
+2tens 5 ones
+2tens 6 ones
+2tens 7 ones
+2tens 8 error
+2tens 9 error
+2tens - error
+neg - error
+neg 0 error
+neg 2 tens
+neg 3 tens
+neg 4 tens
+neg 5 tens
+neg 6 tens
+neg 7 tens
+neg 8 tens
+neg 9 tens
+neg 1 2hundred
+2hundred 3 ones
+2hundred 4 ones
+2hundred 5 ones
+2hundred 6 ones
+2hundred 7 ones
+2hundred 8 ones
+2hundred 9 ones
+2hundred - error
+2hundred 0 tens
+2hundred 1 tens
+2hundred 2 3tens
+3tens 0 ones
+3tens 1 ones
+3tens 2 ones
+3tens 3 ones
+3tens 4 ones
+3tens 5 ones
+3tens 6 ones
+3tens 7 ones
+3tens 8 ones
+3tens - error
+3tens 9 error
+start - neg
+neg - error
+neg 2-9 tens
+neg 1 2hundred
+2hundred 3-9 ones
+2hundred - error
+2hundred 0-1 tens
+2hundred 2 3tens
+3tens 0-8 ones
+3tens -,9 error
+start 0 ones
+zero 0-9,- error
+start 2-9 tens
+tens 0-9 ones
+tens - error
+ones -,0-9 error
+start 1 hundred
+hundred 0-1 tens
+hundred 2 2tens
+hundred 3-9 ones
+hundred - error
+2tens 0-7 ones
+2tens 8-9,- error

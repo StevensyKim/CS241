@@ -1,0 +1,49 @@
+6
+E
+F
++
+id
+#
+$
+6
+nope
+{<S>}
+{u,<E>}
+{v,x}
+{v,y}
+bless
+{<S>}
+1
+bless
+36
+{<S>} $ {u,<E>}
+{<S>} E nope
+{<S>} F nope
+{<S>} + nope
+{<S>} id nope
+{<S>} # nope
+{u,<E>} E {v,x}
+{u,<E>} F bless
+{u,<E>} id bless
+{u,<E>} # bless
+{u,<E>} $ nope
+{u,<E>} + nope
+{v,x} E nope
+{v,x} F nope
+{v,x} + {v,y}
+{v,x} id nope
+{v,x} # nope
+{v,x} $ bless
+{v,y} E nope 
+{v,y} F bless
+{v,y} + nope
+{v,y} id nope
+{v,y} # nope
+{v,y} $ nope
+bless E nope
+bless F nope
+bless + nope
+bless id nope
+bless # nope
+bless $ nope
+$ E + F

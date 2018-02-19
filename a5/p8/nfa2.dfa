@@ -1,0 +1,80 @@
+6
+E
+F
++
+id
+#
+$
+10
+nope
+{<S>}
+{u,<E>}
+{v,x}
+{0,x}
+{v,y}
+{v,1}
+{u,2}
+{u,3}
+{u,4}
+{<S>}
+5
+{u,4}
+{u,3}
+{u,2}
+{0,x}
+{v,1}
+54
+{<S>} $ {u,<E>}
+{<S>} E nope
+{<S>} F nope
+{<S>} + nope
+{<S>} id nope
+{<S>} # nope
+{u,<E>} E {v,x}
+{u,<E>} F {u,2}
+{u,<E>} id {u,3}
+{u,<E>} # {u,4}
+{u,<E>} $ nope
+{u,<E>} + nope
+{u,2} E nope
+{u,2} F nope
+{u,2} + nope
+{u,2} id nope
+{u,2} # nope
+{u,2} $ nope
+{u,3} E nope
+{u,3} F nope
+{u,3} + nope
+{u,3} id nope
+{u,3} # nope
+{u,3} $ nope
+{u,4} E nope
+{u,4} F nope
+{u,4} + nope
+{u,4} id nope
+{u,4} # nope
+{u,4} $ nope
+{v,x} E nope
+{v,x} F nope
+{v,x} + {v,y}
+{v,x} id nope
+{v,x} # nope
+{v,x} $ {0,x}
+{0,x} E nope
+{0,x} F nope
+{0,x} + nope
+{0,x} id nope
+{0,x} # nope
+{0,x} $ nope
+{v,y} E nope 
+{v,y} F {v,1}
+{v,y} + nope
+{v,y} id nope
+{v,y} # nope
+{v,y} $ nope
+{v,1} E nope
+{v,1} F nope
+{v,1} + nope
+{v,1} id nope
+{v,1} # nope
+{v,1} $ nope
