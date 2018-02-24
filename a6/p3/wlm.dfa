@@ -1,0 +1,573 @@
+80
+a
+b
+c
+d
+e
+f
+g
+h
+i
+j
+k
+l
+m
+n
+o
+p
+q
+r
+s
+t
+u
+v
+w
+x
+y
+z
+A
+B
+C
+D
+E
+F
+G
+H
+I
+J
+K
+L
+M
+N
+O
+P
+Q
+R
+S
+T
+U
+V
+W
+X
+Y
+Z
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+(
+)
+{
+}
+=
+!
+<
+>
++
+-
+*
+/
+%
+,
+;
+[
+]
+&
+7
+start
+id
+num
+finish
+lge
+not
+error
+start
+4
+id
+num
+finish
+lge
+480
+start a id
+start b id
+start c id
+start d id
+start e id
+start f id
+start g id
+start h id
+start i id
+start j id
+start k id
+start l id
+start m id
+start n id
+start o id
+start p id
+start q id
+start r id
+start s id
+start t id
+start u id
+start v id
+start w id
+start x id
+start y id
+start A id
+start B id
+start C id
+start D id
+start E id
+start F id
+start G id
+start H id
+start I id
+start J id
+start K id
+start L id
+start M id
+start N id
+start O id
+start P id
+start Q id
+start R id
+start S id
+start T id
+start U id
+start V id
+start W id
+start X id
+start Y id
+start 0 finish
+start 1 num
+start 2 num
+start 3 num
+start 4 num
+start 5 num
+start 6 num
+start 7 num
+start 8 num
+start 9 num
+start { finish
+start } finish
+start ( finish
+start ) finish
+start = lge
+start ! not
+start < lge
+start > lge
+start + finish
+start - finish
+start * finish
+start / finish
+start % finish
+start , finish
+start ; finish
+start [ finish
+start ] finish
+start & finish
+id a id
+id b id
+id c id
+id d id
+id e id
+id f id
+id g id
+id h id
+id i id
+id j id
+id k id
+id l id
+id m id
+id n id
+id o id
+id p id
+id q id
+id r id
+id s id
+id t id
+id u id
+id v id
+id w id
+id x id
+id y id
+id A id
+id B id
+id C id
+id D id
+id E id
+id F id
+id G id
+id H id
+id I id
+id J id
+id K id
+id L id
+id M id
+id N id
+id O id
+id P id
+id Q id
+id R id
+id S id
+id T id
+id U id
+id V id
+id W id
+id X id
+id Y id
+id 0 id
+id 1 id
+id 2 id
+id 3 id
+id 4 id
+id 5 id
+id 6 id
+id 7 id
+id 8 id
+id 9 id
+id { error
+id } error
+id ( error
+id ) error
+id [ error
+id ] error
+id ! error
+id = error
+id < error
+id > error
+id + error
+id - error
+id * error
+id / error
+id % error
+id , error
+id ; error
+id & error
+num & error
+num A error
+num B error
+num C error
+num D error
+num E error
+num F error
+num G error
+num H error
+num I error
+num J error
+num K error
+num L error
+num M error
+num N error
+num O error
+num P error
+num Q error
+num R error
+num S error
+num T error
+num U error
+num V error
+num W error
+num X error
+num Y error
+num Z error
+num a error
+num b error
+num c error
+num d error
+num e error
+num f error
+num g error
+num h error
+num i error
+num j error
+num k error
+num l error
+num m error
+num n error
+num o error
+num p error
+num q error
+num r error
+num s error
+num t error
+num u error
+num v error
+num w error
+num x error
+num y error
+num z error
+num { error
+num } error
+num ( error
+num ) error
+num = error
+num ! error
+num < error
+num > error
+num + error
+num - error
+num * error
+num / error
+num % error
+num , error
+num ; error
+num [ error
+num ] error
+num 0 num
+num 1 num
+num 2 num
+num 3 num
+num 4 num
+num 5 num
+num 6 num
+num 7 num
+num 8 num
+num 9 num
+not a error
+not b error
+not c error
+not d error
+not e error
+not f error
+not g error
+not h error
+not i error
+not j error
+not k error
+not l error
+not m error
+not n error
+not o error
+not p error
+not q error
+not r error
+not s error
+not t error
+not u error
+not v error
+not w error
+not x error
+not y error
+not z error
+not A error
+not B error
+not C error
+not D error
+not E error
+not F error
+not G error
+not H error
+not I error
+not J error
+not K error
+not L error
+not M error
+not N error
+not O error
+not P error
+not Q error
+not R error
+not S error
+not T error
+not U error
+not V error
+not W error
+not X error
+not Y error
+not Z error
+not 0 error
+not 1 error
+not 2 error
+not 3 error
+not 4 error
+not 5 error
+not 6 error
+not 7 error
+not 8 error
+not 9 error
+not { error
+not } error
+not ( error
+not ) error
+not = finish
+not ! error
+not < error
+not > error
+not + error
+not - error
+not * error
+not / error
+not % error
+not , error
+not ; error
+not [ error
+not ] error
+not & error
+lge { error
+lge } error
+lge ( error
+lge ) error
+lge = finish
+lge ! error
+lge < error
+lge > error
+lge + error
+lge - error
+lge * error
+lge / error
+lge % error
+lge , error
+lge ; error
+lge [ error
+lge ] error
+lge & error
+lge A error
+lge B error
+lge C error
+lge D error
+lge E error
+lge F error
+lge G error
+lge H error
+lge I error
+lge J error
+lge K error
+lge L error
+lge M error
+lge N error
+lge O error
+lge P error
+lge Q error
+lge R error
+lge S error
+lge T error
+lge U error
+lge V error
+lge W error
+lge X error
+lge Y error
+lge Z error
+lge a error
+lge b error
+lge c error
+lge d error
+lge e error
+lge f error
+lge g error
+lge h error
+lge i error
+lge j error
+lge k error
+lge l error
+lge m error
+lge n error
+lge o error
+lge p error
+lge q error
+lge r error
+lge s error
+lge t error
+lge u error
+lge v error
+lge w error
+lge x error
+lge y error
+lge z error
+lge 0 error
+lge 1 error
+lge 2 error
+lge 3 error
+lge 4 error
+lge 5 error
+lge 6 error
+lge 7 error
+lge 8 error
+lge 9 error
+finish { error
+finish } error
+finish ( error
+finish ) error
+finish = error
+finish ! error
+finish < error
+finish > error
+finish + error
+finish - error
+finish * error
+finish / error
+finish % error
+finish , error
+finish ; error
+finish [ error
+finish ] error
+finish & error
+finish A error
+finish B error
+finish C error
+finish D error
+finish E error
+finish F error
+finish G error
+finish H error
+finish I error
+finish J error
+finish K error
+finish L error
+finish M error
+finish N error
+finish O error
+finish P error
+finish Q error
+finish R error
+finish S error
+finish T error
+finish U error
+finish V error
+finish W error
+finish X error
+finish Y error
+finish Z error
+finish a error
+finish b error
+finish c error
+finish d error
+finish e error
+finish f error
+finish g error
+finish h error
+finish i error
+finish j error
+finish k error
+finish l error
+finish m error
+finish n error
+finish o error
+finish p error
+finish q error
+finish r error
+finish s error
+finish t error
+finish u error
+finish v error
+finish w error
+finish x error
+finish y error
+finish z error
+finish 0 error
+finish 1 error
+finish 2 error
+finish 3 error
+finish 4 error
+finish 5 error
+finish 6 error
+finish 7 error
+finish 8 error
+finish 9 error
+a b c
