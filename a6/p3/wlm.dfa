@@ -1,4 +1,4 @@
-80
+77
 a
 b
 c
@@ -76,9 +76,6 @@ Z
 %
 ,
 ;
-[
-]
-&
 7
 start
 id
@@ -93,7 +90,7 @@ id
 num
 finish
 lge
-480
+462
 start a id
 start b id
 start c id
@@ -119,6 +116,7 @@ start v id
 start w id
 start x id
 start y id
+start z id
 start A id
 start B id
 start C id
@@ -144,6 +142,7 @@ start V id
 start W id
 start X id
 start Y id
+start Z id
 start 0 finish
 start 1 num
 start 2 num
@@ -169,9 +168,6 @@ start / finish
 start % finish
 start , finish
 start ; finish
-start [ finish
-start ] finish
-start & finish
 id a id
 id b id
 id c id
@@ -197,6 +193,7 @@ id v id
 id w id
 id x id
 id y id
+id z id
 id A id
 id B id
 id C id
@@ -222,6 +219,7 @@ id V id
 id W id
 id X id
 id Y id
+id Z id
 id 0 id
 id 1 id
 id 2 id
@@ -236,8 +234,6 @@ id { error
 id } error
 id ( error
 id ) error
-id [ error
-id ] error
 id ! error
 id = error
 id < error
@@ -249,8 +245,6 @@ id / error
 id % error
 id , error
 id ; error
-id & error
-num & error
 num A error
 num B error
 num C error
@@ -318,8 +312,6 @@ num / error
 num % error
 num , error
 num ; error
-num [ error
-num ] error
 num 0 num
 num 1 num
 num 2 num
@@ -407,9 +399,6 @@ not / error
 not % error
 not , error
 not ; error
-not [ error
-not ] error
-not & error
 lge { error
 lge } error
 lge ( error
@@ -425,9 +414,6 @@ lge / error
 lge % error
 lge , error
 lge ; error
-lge [ error
-lge ] error
-lge & error
 lge A error
 lge B error
 lge C error
@@ -505,9 +491,6 @@ finish / error
 finish % error
 finish , error
 finish ; error
-finish [ error
-finish ] error
-finish & error
 finish A error
 finish B error
 finish C error
@@ -570,4 +553,3 @@ finish 6 error
 finish 7 error
 finish 8 error
 finish 9 error
-a b c
