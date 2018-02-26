@@ -1,0 +1,14 @@
+ID wain
+ID (int
+ID a
+COMMA ,
+INT int
+ID b
+RPAREN )
+LBRACE {
+RETURN return
+ID a
+SLASH /
+ID b
+SEMI ;
+RBRACE }
