@@ -65,11 +65,11 @@ std::string AsmDFA::transition(std::string state, char nextChar, std::string sof
   } else if (state == "WHITESPACE") {
     if (isspace(nextChar))      return "WHITESPACE";
   } else if (state == "FINISH") {
-    if (!isspace(nextChar) && (sofar == "int"  ||
-			       sofar == "if"   ||
-			       sofar == "else" ||
-			       sofar == "while"||
-			       sofar == "return")) return "ID";
+//   if (!isspace(nextChar) && (sofar == "int"  ||
+//			       sofar == "if"   ||
+//			       sofar == "else" ||
+//			       sofar == "while"||
+//			       sofar == "return")) return "ID";
   }
   return "FAIL";
 }
@@ -121,7 +121,6 @@ std::vector<Token> AsmDFA::simplifiedMaximalMunch(std::string input) const {
                              + munched_input + "-" + old_state + " " + state);
       }
     } 
-    //if (old_state == "COMMENT" && state == "COMMENT") throw ScanningFailure(old_state + " " + state);
   }
 
   return result;
@@ -164,6 +163,7 @@ std::vector<Token> AsmDFA::scan(std::string input) const {
         else if (token.getLexeme() == "!=") newTokens.push_back(Token("NE",token.getLexeme()));
         else if (token.getLexeme() == "<=") newTokens.push_back(Token("LE",token.getLexeme()));
         else if (token.getLexeme() == ">=") newTokens.push_back(Token("GE",token.getLexeme()));
+        else if (token.getLexeme() == "==") newTokens.push_back(Token("EQ",token.getLexeme()));
     } else if (token.getKind() == "LGE") { 
         if (token.getLexeme() == "<") newTokens.push_back(Token("LT",token.getLexeme()));
         else if (token.getLexeme() == ">") newTokens.push_back(Token("GT",token.getLexeme()));

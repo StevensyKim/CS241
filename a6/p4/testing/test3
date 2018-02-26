@@ -1,0 +1,9 @@
+   wain(int a, int b) {
+      int xxx ;
+      int yyy;
+      if (x == y) { a = b; } else { c = d; }
+      while (a+b <= c*d) {}
+      a = b+1*(c%d-e/x);
+      c = 132;
+      return a + b;   // unhelpful comment about summing a and b
+   }
