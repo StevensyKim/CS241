@@ -65,6 +65,9 @@ std::string AsmDFA::transition(std::string state, char nextChar, std::string sof
   } else if (state == "WHITESPACE") {
     if (isspace(nextChar))      return "WHITESPACE";
   } else if (state == "FINISH") {
+    if (isalnum(nextChar) && sofar == "0") {
+      throw ScanningFailure("ERROR: Cannot have token 0 followed by letter or num");
+    }
 //   if (!isspace(nextChar) && (sofar == "int"  ||
 //			       sofar == "if"   ||
 //			       sofar == "else" ||
